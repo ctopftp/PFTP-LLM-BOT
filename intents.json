@@ -1,0 +1,120 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "marketing",
+      "patterns": ["digital marketing"],
+      "responses": [
+       "Facebook , Google , Wordpress , Canva , Social Media complete "
+      ]
+    },
+    {
+      "tag": "onsite",
+      "patterns": ["courses"],
+      "responses": [
+        "hunarmand ,cyber security,digital marketing, amazon "
+      ]
+    },
+    {
+      "tag": "hunmarmand",
+      "patterns": ["outline","content","hunarmand"],
+      "responses": [
+        "Introduction to Freelancing, WordPress Development, Social Media Marketing, YouTube Marketing, Canva Design "
+      ]
+    },
+    {
+      "tag": "cyber security ",
+      "patterns": ["outline","content"],
+      "responses": [
+        "Introduction to Cybersecurity,  Cyber Threats and Attacks, Network Security, Cryptography and Data Protection, Identity and Access Management, Security Operations and Incident Response, Risk Management and Compliance, Emerging Technologies and Trends in Cybersecurity "
+      ]
+    },
+    {
+      "tag": "certified ethical hacker ",
+      "patterns": ["outline","content","eh","ceh"],
+      "responses": [
+        "Information security controls, laws, and standard, Various types of footprinting, footprinting tools, and countermeasures,Network scanning techniques and scanning countermeasures,Enumeration techniques and enumeration countermeasures, Vulnerability analysis to identify security loopholes in the target organization’s network, communication infrastructure, and end systems. System hacking methodology, steganography, steganalysis attacks, and covering tracks to discover system and network vulnerabilities. Different types of malware (Trojan, Virus, worms, etc.), system auditing for malware attacks, malware analysis, and countermeasures. Packet sniffing techniques to discover network vulnerabilities and countermeasures to defend against sniffing. Social engineering techniques and how to identify theft attacks to audit human-level vulnerabilities and social engineering countermeasures. DoS/DDoS attack techniques and tools to audit a target and DoS/DDoS countermeasures. Session hijacking techniques to discover network-level session management, authentication/authorization, and cryptographic weaknesses and countermeasures. Penetration testing, security audit, vulnerability assessment, and penetration testing roadmap. Threats to IoT and OT platforms and defending IoT and OT devices. Cryptography ciphers, Public Key Infrastructure (PKI), cryptography attacks, and cryptanalysis tools"
+      ]
+    },
+
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell coffee and tea",
+        "We have coffee and tea"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}
